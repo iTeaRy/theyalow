@@ -1,0 +1,45 @@
+body {
+	height: 1847px;
+	width: 1300px;
+}
+
+@font-face {
+ 	font-family: 'Asap';
+ 	src: url('../fonts/Asap-Regular.ttf');
+}
+
+@font-face {
+ 	font-family: 'Lucida Sans';
+ 	src: url('../fonts/Lucida_Sans.ttf');
+}
+
+@font-face {
+ 	font-family: 'Open Sans';
+ 	src: url('../fonts/Open-Sans.ttf');
+}
+
+@font-face {
+ 	font-family: 'PT Sans';
+ 	src: url('../fonts/PT-Sans.ttf');
+}
+
+@font-face {
+ 	font-family: 'PT Sans Narrow';
+ 	src: url('../fonts/PT-Sans-Narrow.ttf');
+}
+
+@font-face {
+ 	font-family: 'Segoe UI';
+ 	src: url('../fonts/Segoe-UI.ttf');
+}
+
+@font-face {
+ 	font-family: 'Segoe WP';
+ 	src: url('../fonts/Segoe-WP.ttf');
+}
+
+@media screen and (max-width: 640px) {
+	body {
+		width: 640px;
+	}
+}

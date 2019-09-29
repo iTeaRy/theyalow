@@ -1,0 +1,157 @@
+@media screen and (max-width: 640px) {
+  
+  .products {
+    height: 174px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .slider {
+    height: 484px;
+    padding: 0;
+    background: #F5C507;
+    background-image: 0;
+    background-size:0;
+    background-position:0;
+  }
+
+  .img-products {
+    height: 174px;
+    border-right: 0;
+    width: 33%;
+    padding-bottom: 0;
+    justify-content: flex-end;
+  }
+
+  .products-text {
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .img-border {
+    border-left: 0;
+  }
+
+  .content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .text {
+    width: 246px;
+    height: 233px;
+    padding-left: 26px;
+    padding-right: 10px;
+    border: 9px #ffffff solid;
+    line-height: 33px;
+    background: #EC9E03;
+  }
+
+  .movie {
+    margin-right: -62px;
+    width: 315px;
+    height: 233px;
+    border: 9px #ffffff solid;
+    border-left: 0;
+  }
+
+  .twitter {
+    width: 324px;
+    height: 233px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    text-decoration: none;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .slide {
+    background-color: #F5C507;
+    display: flex;
+  }
+
+  .img-plus {
+    display: none;
+  }
+
+  .twit-number {
+    display: none;
+  }
+
+  .img-twitter {
+    padding-left: 0;
+    align-self: center;
+    margin: 0;
+  }
+
+  .video-description {
+    padding-top: 0;
+  }
+
+  .twitter-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .slider-text {
+    display: none;
+  }
+
+  .slider-date {
+    display: none;
+  }
+
+  .slider.twitter {
+    background: #F5CC24;
+  }
+
+  .scrollbar {
+    display: none;
+  }
+
+  .twit-line {
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+    align-items: flex-end;
+    margin-left: -10px;
+  }
+
+  .twit-message {
+    width: 285px;
+    background: url(../images/background-message.png);
+    margin-bottom: 20px;
+    text-indent: 20px;
+    font-size: 13px;
+    color: #8f8e8e;
+    font-family: "Arial";
+  }
+
+  .button {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    background: #DC9B19;
+    color: #ffffff;
+    border-radius: 0 10px 10px 0;
+  }
+
+  .twit-input input {
+    width: 200px;
+    height: 30px;
+    border-radius:10px 0 0 10px;
+  }
+
+  .twit-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

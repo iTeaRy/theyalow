@@ -1,0 +1,114 @@
+.footer-description {
+  width: 1021px;
+  height: 452px;
+  padding: 48px 140px 0 140px;
+  background: url(../images/footer-background.png);
+  background-size: cover;
+}
+
+.monitor {
+  width: 323px;
+  height: 255px;
+  margin: 0 0 -7px 17px;
+}
+
+.pad {
+  width: 129px;
+  height: 173px;
+  margin: 0 0 37px 18px;
+}
+
+.mobile {
+  width: 39px;
+  height: 63px;
+  margin: 0 0 37px 19px;
+}
+
+.circle {
+  display: flex;
+  position: absolute;
+  font-size: 19px;
+  color: #ffffff;
+  font-family: "PT Sans Narrow";
+  font-weight: 700;
+  letter-spacing: 0px;
+  width: 116px;
+  height: 116px;
+  border-radius: 58px;
+  background-color: #f5c506;
+  text-align: center;
+  align-items: center;
+  margin-left: -16px;
+  margin-top: -33px;
+}
+
+.footer-text {
+  line-height: 28px;
+  font-size: 43px;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  color: #f5c506;
+  font-family: "PT Sans";
+  font-weight: 400;
+  margin-left: 164px;
+  margin-bottom: 17px;
+}
+
+.footer-info {
+  display: flex;
+  align-items: flex-end;
+}
+
+circle {
+  background: #F5C506;
+  border-radius: 15px;
+  width: 15px;
+  height: 15px;
+  margin-left: -40px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.li-text {
+  display: inline-block;
+  width: 300px;
+}
+
+.footer-list {
+  align-self: flex-start;
+  margin-top: 25px;
+  font-size: 22px;
+  letter-spacing: 0px;
+  color: #a9a9a7;
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin-left: 119px;
+  padding-top: 35px;
+}
+
+.footer-list li {
+  display: flex;
+  align-items: baseline;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-logotype-zone {
+  background: #4C4C4C;
+  box-shadow: -0.105px -2.998px 5px 2px rgba(0,0,0,0.75);
+}
+
+.footer-logotype-zone img {
+  width: 51px;
+  height: 51px;
+}
+
+.footer-logo {
+  margin: 0 -58px 0 0;
+  opacity: 0.52;
+}
+
+.footer-logotype-zone .logotype {
+  font-size: 29px;
+  margin: 4px 0 0 138px;
+}

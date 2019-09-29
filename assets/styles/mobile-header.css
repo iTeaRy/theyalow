@@ -1,0 +1,68 @@
+@media screen and (max-width: 640px) {
+  
+  header {
+    width: 640px;
+    background-image: linear-gradient(60deg, #000000 0%, #ffffff 100%);
+  }
+
+  .header-nav {
+    display: flex;
+    width: 640px;
+    height: 63px;
+  }
+
+  .logotype {
+    justify-content: center;
+    color: white;
+    width: 186px;
+    height: 62px;
+    background: background-image: linear-gradient(60deg, #000000 0%, #ffffff 100%);;
+    font-size: 19px;
+  }
+
+  .navigation {
+    width: 456px;
+    height: 63px;
+    -webkit-box-shadow: 0px 0px 0px 0px #ffffff;
+    -moz-box-shadow: 0px 0px 0px 0px #ffffff;
+    box-shadow: 0px 0px 0px 0px #ffffff;
+  }
+
+  .navigation li {
+    height: 63px;
+  }
+
+  .header-content {
+    width: 640px;
+    height: 327px;
+    display: inline-block;
+    padding: 0;
+  }
+
+  .movie-description {
+    display: none;
+  }
+
+  .header-movie {
+    height: 327px;
+  }
+
+  .header-content video {
+    width: 640px;
+    height: 327px;
+  }
+
+  .logotype img {
+    width: 38px;
+    height: 38px;
+  }
+
+  .logo {
+    margin: 0 -43px 0 0;
+    opacity: 0.52;
+  }
+
+  .arrow-border {
+    display: none;
+  }
+}
